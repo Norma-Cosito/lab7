@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray; /* Fondo gris para la página */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+}
+
+.login-container {
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Esto asegura que el padding no aumente el ancho total */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4; /* Un azul de Google */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
